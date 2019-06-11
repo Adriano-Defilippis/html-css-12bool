@@ -1,22 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* regole di debug */
 [class*="col-"] {
-   height: 150px;
+   height: 200px;
    background-color: pink;
    border: solid 1px black;
    position: relative;
    text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
