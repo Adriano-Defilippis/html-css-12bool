@@ -1,0 +1,29 @@
+/* regole di debug */
+[class*="col-"] {
+   height: 150px;
+   background-color: pink;
+   border: solid 1px black;
+   position: relative;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* regole per centratura testo */
+[class*="col-"] > p{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

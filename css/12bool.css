@@ -9,5 +9,24 @@
 .container{
   max-width: 1170px;
   margin: 0 auto;
-  border: 1px solid black;
+}
+
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* REgole generali colonne */
+[class*="col-"] {
+   float: left;   /* Tutte le classi che iniziziano con col- */
+}
+
+
+
+/* Regole per la grandezza delle colonne */
+.col-1{
+  width: calc(100% / 12);
+  height: 200px;
 }
